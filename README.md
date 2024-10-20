@@ -66,8 +66,8 @@ You just need to open it and check your entire log.
 **Rembember**: the file will not be overwritten, but will append to the already existing `log.txt` file.
 
 ## Troubleshooting Tips
-1. **`"Execution Policy Error"`**:  if PowerShell blocks the script, ensure you've properly set the execution policy. If you're unsure, you can temporarily bypass the restriction of the current Poweshell window by running the script as follows:
-`Set-ExecutionPolicy Bypass -Scope Process` .
+1. **`"Execution Policy Error"`**:  if PowerShell blocks the script, ensure you've properly set the execution policy. If you're unsure, you can temporarily bypass the restriction of the current Poweshell window by running the script as follows: <br />
+`Set-ExecutionPolicy Bypass -Scope Process` . <br />
 You'll need to execute the script again if you open a new Powershell window, but it's the safest method at the moment
 **NEVER change your Poweshell execution policy permanently for security reasons.**
 2. **Error with `speedtest-cli`**: ensure that  the `speedtest.exe` in the same directory of the script and that it's executable.
