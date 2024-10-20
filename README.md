@@ -38,13 +38,13 @@ I made the project to be used in the easiest way possible. The only things you n
 ### Prerequisites
 The prerequisites for the script to work are:
 * Git Clone the repository or manually download the `Network-Tester.ps1`
-* Download the latest `speedtest-cli` from the [official page](https://www.speedtest.net/it/apps/cli)
+* Download the latest `speedtest-cli` from the [official page](https://www.speedtest.net/it/apps/cli) (Windows version) and extract the `speedtest.exe`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
 After you downloaded the script and the `speedtest-cli`, make sure to:
-1. Create a new working Directory with both files mentioned beforehand
+1. Create a new working Directory and extract the script `Network-Tester.ps1` and the `speedtest.exe`
 2. Give the script acces in order to be executed on Powershell (check the Troubleshooting section)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
